@@ -38,8 +38,8 @@ def directors_totals(nds)
   #nil
   #p movies_total
   dir_name = nds[directors_index][:name] 
-result = {}
-result[dir_name] = dir_total
+  result = {}
+  result[dir_name] = dir_total
 
 end
 
