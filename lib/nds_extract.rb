@@ -48,7 +48,6 @@ def directors_totals(nds)
     end
     directors_index += 1
   end
-  p dir_total
   #nil
   #p movies_total
 end
