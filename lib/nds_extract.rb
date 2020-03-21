@@ -37,7 +37,8 @@ def directors_totals(nds)
   while directors_index < nds.length do
     #p nds[directors_index]
     curr_director = nds[directors_index]
-    p curr_director[:movies]
+    curr_director[:movies]
+    dir_movies = curr_director[:movies]
     
     directors_index += 1
   end
