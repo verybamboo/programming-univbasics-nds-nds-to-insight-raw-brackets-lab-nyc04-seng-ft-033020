@@ -33,7 +33,7 @@ def directors_totals(nds)
     while movies_index < dir_movies.length do
       dir_total += dir_movies[movies_index][:worldwide_gross]
       movies_index += 1
-      p movies_index + "Inner Loop"
+      p "inner loop" + movies_index
     end
     
     dir_name = nds[directors_index][:name]
