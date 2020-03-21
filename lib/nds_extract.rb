@@ -22,7 +22,7 @@ def directors_totals(nds)
   movies_index = 0
   result = {}
   
-  while directors_index < nds.length do
+  while directors_index < nds.count do
     #p nds[directors_index]
     curr_director = nds[directors_index]
     curr_director[:movies]
