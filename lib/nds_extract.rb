@@ -35,7 +35,7 @@ def directors_totals(nds)
   directors_index = 0
   while directors_index < nds.length do
     p nds[directors_index]
-    currd = nds[directors_index]
+    curr_director = nds[directors_index]
     directors_index += 1
   end
   #nil
