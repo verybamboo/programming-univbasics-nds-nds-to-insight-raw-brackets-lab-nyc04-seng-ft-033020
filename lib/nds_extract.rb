@@ -37,7 +37,6 @@ def directors_totals(nds)
   end
   #nil
   #p movies_total
-  
   result = {}
   result[dir_name] = dir_total
   result
