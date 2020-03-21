@@ -9,8 +9,9 @@ def directors_totals(nds)
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
   
   result = {}
-
-  nds[directors_index][:name] = 
+  result[:dir_total] = ""
+  
+  nds[directors_index][:name] 
   
   
   #
