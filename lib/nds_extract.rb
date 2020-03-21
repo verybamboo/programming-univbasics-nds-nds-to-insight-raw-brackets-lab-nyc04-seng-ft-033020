@@ -10,7 +10,7 @@ def directors_totals(nds)
   
   result = {}
   
-  nds[directors_index][:name] = dir_total
+  nds[directors_index][:name] 
   
   result[:money_total]
   
