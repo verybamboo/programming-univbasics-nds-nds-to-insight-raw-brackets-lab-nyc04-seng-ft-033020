@@ -38,6 +38,7 @@ def directors_totals(nds)
     #p nds[directors_index]
     curr_director = nds[directors_index]
     p curr_director[:movies]
+    
     directors_index += 1
   end
   #nil
