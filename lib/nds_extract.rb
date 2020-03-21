@@ -42,6 +42,7 @@ def directors_totals(nds)
     while movies_index < dir_movies.length do
       p dir_movies[:worldwide_gross]
     directors_index += 1
+    movies_index += 1
   end
   #nil
   #p movies_total
