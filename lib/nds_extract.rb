@@ -40,6 +40,6 @@ def directors_totals(nds)
   dir_name = nds[directors_index][:name] 
   result = {}
   result[dir_name] = dir_total
-
+  result
 end
 
