@@ -13,7 +13,6 @@ def directors_totals(nds)
   result[dir_name] = dir_total
   
   
-  
   #
   # Use loops, variables and the accessing method, [], to loop through the NDS
   # and total up all the
