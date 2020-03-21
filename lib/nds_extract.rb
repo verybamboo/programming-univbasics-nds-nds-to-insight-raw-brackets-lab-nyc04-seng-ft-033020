@@ -16,8 +16,10 @@ def directors_totals(nds)
   # ...
   #
   #
+  #p nds
   # Be sure to return the result at the end!
-   directors_index = 0
+  
+  directors_index = 0
   movies_index = 0
   
   while directors_index < nds.length do
