@@ -11,7 +11,9 @@ def directors_totals(nds)
   result = {}
   
   nds[directors_index][:name] = dir_total
-  result[:money_total] = 
+  
+  result[:money_total] =>
+  
   #
   # Use loops, variables and the accessing method, [], to loop through the NDS
   # and total up all the
