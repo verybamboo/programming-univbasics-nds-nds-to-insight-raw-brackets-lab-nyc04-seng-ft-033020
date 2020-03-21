@@ -11,7 +11,7 @@ def directors_totals(nds)
   result = {}
   result[:name] = dir_total
   
-  nds[directors_index][:name] 
+  dir_name = nds[directors_index][:name] 
   
   
   #
