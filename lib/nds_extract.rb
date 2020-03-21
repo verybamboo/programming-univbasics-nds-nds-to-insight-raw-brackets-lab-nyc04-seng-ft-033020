@@ -34,7 +34,7 @@ def directors_totals(nds)
   #  directors_index += 1
   directors_index = 0
   movies_index = 0
-  movies_total = 0
+  dir_total = 0
   
   while directors_index < nds.length do
     #p nds[directors_index]
