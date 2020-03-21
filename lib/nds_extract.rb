@@ -41,5 +41,6 @@ def directors_totals(nds)
   #p movies_total
   
   p result
+  p movies_index
 end
 
