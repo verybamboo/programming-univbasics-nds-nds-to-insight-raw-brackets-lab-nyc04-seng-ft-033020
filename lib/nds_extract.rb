@@ -34,11 +34,11 @@ def directors_totals(nds)
     end
     dir_name = nds[directors_index][:name]
     directors_index += 1
-    result = {}
     result[dir_name] = dir_total
   end
   #nil
   #p movies_total
-    p result
+  
+  p result
 end
 
