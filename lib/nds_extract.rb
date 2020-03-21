@@ -44,7 +44,7 @@ def directors_totals(nds)
     while movies_index < dir_movies.length do
       p dir_movies[movies_index][:worldwide_gross]
       pre_total = dir_movies[movies_index][:worldwide_gross]
-      pre_total
+      movies_total << pre_total
       movies_index += 1
     end
     directors_index += 1
