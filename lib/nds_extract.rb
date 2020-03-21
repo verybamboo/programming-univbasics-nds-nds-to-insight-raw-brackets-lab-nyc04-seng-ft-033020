@@ -29,7 +29,7 @@ def directors_totals(nds)
     dir_movies = curr_director[:movies]
     dir_total = 0
     
-    while movies_index < dir_movies.length do
+    while movies_index < dir_movies.count do
       dir_total += dir_movies[movies_index][:worldwide_gross]
       movies_index += 1
     end
