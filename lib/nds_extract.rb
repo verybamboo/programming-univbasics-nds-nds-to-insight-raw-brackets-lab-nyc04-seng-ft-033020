@@ -40,7 +40,7 @@ def directors_totals(nds)
   #p movies_total
 end
 
-  dir_name = nds[directors_index][:name] 
-  result = {}
-  result[dir_name] = dir_total
+dir_name = nds[directors_index][:name] 
+result = {}
+result[dir_name] = dir_total
 
