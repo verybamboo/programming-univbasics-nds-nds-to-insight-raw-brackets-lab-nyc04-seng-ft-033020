@@ -8,7 +8,7 @@ def directors_totals(nds)
   #
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
   result = {}
-  result[] = 0
+  result[curr_director][:name] = 0
   #
   # Use loops, variables and the accessing method, [], to loop through the NDS
   # and total up all the
