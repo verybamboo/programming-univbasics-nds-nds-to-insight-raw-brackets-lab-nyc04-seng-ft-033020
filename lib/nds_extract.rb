@@ -39,6 +39,6 @@ def directors_totals(nds)
   #p movies_total
   result = {}
   result[dir_name] = dir_total
-  result
+  p result
 end
 
