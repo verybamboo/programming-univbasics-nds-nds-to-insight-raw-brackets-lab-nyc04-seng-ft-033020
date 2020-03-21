@@ -10,7 +10,7 @@ def directors_totals(nds)
   
   result = {}
   
-  nds[directors_index][]
+  nds[directors_index][:name]
   
   #
   # Use loops, variables and the accessing method, [], to loop through the NDS
