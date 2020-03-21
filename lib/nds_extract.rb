@@ -22,14 +22,14 @@ def directors_totals(nds)
   movies_index = 0
   result = {}
   
-  while directors_index < nds.count do
+  while directors_index < nds.length do
     #p nds[directors_index]
     curr_director = nds[directors_index]
     curr_director[:movies]
     dir_movies = curr_director[:movies]
     dir_total = 0
     
-    while movies_index < dir_movies.count do
+    while movies_index < dir_movies.length do
       dir_total += dir_movies[movies_index][:worldwide_gross]
       movies_index += 1
       p "inner loop"
