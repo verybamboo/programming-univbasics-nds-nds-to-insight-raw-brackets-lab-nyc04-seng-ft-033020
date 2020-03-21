@@ -8,10 +8,10 @@ def directors_totals(nds)
   #
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
   
+  dir_name = nds[directors_index][:name] 
   result = {}
   result[dir_name] = dir_total
   
-  dir_name = nds[directors_index][:name] 
   
   
   #
